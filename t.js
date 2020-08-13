@@ -11,5 +11,5 @@ function convertCf(inp) {
   document.getElementById("p2").innerHTML = "°F = (" + inp + " * 9 / 5) + 32";
   document.getElementById("p3").innerHTML = "°F = (" + semP + " / 5) + 32";
   document.getElementById("p4").innerHTML = "°F = " + multP + " + 32";
-  document.getElementById("p1").innerHTML = res;
+  document.getElementById("p5").innerHTML = res;
   };
