@@ -3,6 +3,7 @@ function convertCf(inp) {
   //  var resultado = document.getElementById("resul");
   //  var lec = (inp * 9/5) + 32;
   //  resultado.innerHTML = lec;
+  // comment lol
   var semP = inp * 9;
   var multP = semP / 5;
   var res = multP + 32;
