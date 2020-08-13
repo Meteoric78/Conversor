@@ -2,16 +2,25 @@
    <html>
        <head>
            <style>
-               p {
+               .intro {
                    font-size: 30px;
                };
            </style>
        </head>
        <body id="body">
-           <p id="intro">Conversor de unidades Celsius para Farenheit</p> <br>
+           <p id="intro" class="intro">Conversor de unidades Celsius para Farenheit</p> <br>
            <input oninput="convertCf()" type="text" placeholder="Digite imediatamente" id="num">
            <button id="button"><a href="index.html">Trocar</a></button>
+           <a>Fórmula ->  <strong>°F = (°C * 9 / 5) + 32</strong></a>
            <p id="resul"></p>
+           <div>
+            <p id="p0"></p>
+            <p id="p1"></p>
+            <p id="p2"></p>
+            <p id="p3"></p>
+            <p id="p4"></p>
+            <p id="p5"></p>
+           </div>
            <script src="t.js">
            </script>
        </body>

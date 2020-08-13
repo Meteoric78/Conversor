@@ -4,17 +4,25 @@
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
         <title>Conversor de temperatura</title>
            <style>
-               p {
+               .intro {
                    font-size: 30px;
                };
            </style>
        </head>
        <body id="body">
-           <p id="intro">Conversor de unidades Farenheit para Celsius</p> <br>
+           <p id="intro" class="intro">Conversor de unidades Farenheit para Celsius</p> <br>
            <input oninput="convertFc()" type="text" placeholder="Digite imediatamente" id="num">
            <button id="button"><a href="najatest.html">Trocar</a></button>
-           <a>Fórmula ->  °C = (°F - 32) x 5 / 9</a>
+           <a>Fórmula ->  <strong>°C = (°F - 32) x 5 / 9</strong></a>
            <p id="resul"></p>
+           <div>
+            <p id="p0"></p>
+            <p id="p1"></p>
+            <p id="p2"></p>
+            <p id="p3"></p>
+            <p id="p4"></p>
+            <p id="p5"></p>
+           </div>
            <script src="javali.js"></script>
        </body>
    </html>
